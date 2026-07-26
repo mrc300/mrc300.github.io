@@ -1,4 +1,14 @@
 const PROJECTS = [
+
+  {
+  title: "DocuMind - RAG Document Assistant (In Progress)",
+  tag: "AI Engineering / RAG ",
+  description: "Buiding a retrieval-augmented generation assistant for querying documents, using local models instead of paid APIs to keep the pipeline self-hosted and cost-free. [ADD: what it does end-to-end, e.g. ingestion → chunking → retrieval → generation, and any concrete numbers — doc count, latency, accuracy/eval results].",
+  stack: ["LangChain", "FAISS", "FastAPI", "React", "Ollama", "sentence-transformers"],
+  github: "https://github.com/mrc300/DocuMind"
+}, 
+
+
   {
     title: "TV Broadcast Test-Card Detection Pipeline",
     tag: "Computer Vision / ML / Work Project",
