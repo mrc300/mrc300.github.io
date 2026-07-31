@@ -1,5 +1,13 @@
 const PROJECTS = [
 
+{
+  title: "CodeReview-GPT - LLM Code Review CLI (In Progress)",
+  tag: "AI Engineering / Agentic AI",
+  description: "Building a CLI tool that automates first-pass code review using an LLM-based agent pipeline with ReAct-style reasoning to inspect diffs, run static analysis, and suggest fixes, integrated with GitHub Actions for automated PR reviews.",
+  stack: ["Python", "Claude API", "GitHub Actions", "Docker"]
+},
+
+
   {
   title: "DocuMind - RAG Document Assistant (In Progress)",
   tag: "AI Engineering / RAG ",
